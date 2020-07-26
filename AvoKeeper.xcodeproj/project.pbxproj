@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50513AB2464F6FD004DD8DE /* AddAvocadoAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50513AA2464F6FD004DD8DE /* AddAvocadoAlert.storyboard */; };
+		D50513AE2464F7E0004DD8DE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50513AD2464F7E0004DD8DE /* Colors.swift */; };
+		D50513B224650AA5004DD8DE /* AddAvocadoAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50513B124650AA5004DD8DE /* AddAvocadoAlertViewController.swift */; };
+		D50513B62467A220004DD8DE /* Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50513B52467A220004DD8DE /* Copy.swift */; };
+		D50513B82467AAA3004DD8DE /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50513B72467AAA3004DD8DE /* Haptics.swift */; };
+		D513EA70243269EB0084BB1E /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513EA6F243269EB0084BB1E /* AboutTableViewController.swift */; };
+		D54EAF042448F36300D0351B /* Avocado.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54EAF032448F36200D0351B /* Avocado.swift */; };
+		D5559E1B24314D7200FDE81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5559E1A24314D7200FDE81A /* AppDelegate.swift */; };
+		D5559E1D24314D7200FDE81A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5559E1C24314D7200FDE81A /* SceneDelegate.swift */; };
+		D5559E2224314D7200FDE81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5559E2024314D7200FDE81A /* Main.storyboard */; };
+		D5559E2424314D7E00FDE81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5559E2324314D7E00FDE81A /* Assets.xcassets */; };
+		D5559E2724314D7E00FDE81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5559E2524314D7E00FDE81A /* LaunchScreen.storyboard */; };
+		D5559E302431520200FDE81A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5559E2F2431520200FDE81A /* HomeViewController.swift */; };
+		D5559E3324323A6200FDE81A /* StatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5559E3224323A6200FDE81A /* StatsTableViewController.swift */; };
+		D5559E3524323E8400FDE81A /* StatsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5559E3424323E8400FDE81A /* StatsSections.swift */; };
+		D5609E692440105C00040606 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5609E682440105C00040606 /* SettingsTableViewController.swift */; };
+		D5609E982443CF3900040606 /* AvocadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5609E972443CF3900040606 /* AvocadoController.swift */; };
+		D575C866247635FF002C5D10 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575C865247635FF002C5D10 /* Settings.swift */; };
+		D575C887247831D6002C5D10 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D575C8612474D680002C5D10 /* UserNotifications.framework */; };
+		D576208B245A835B00B5D417 /* NotRipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5762089245A835A00B5D417 /* NotRipeTableViewCell.swift */; };
+		D576208E245A8DD000B5D417 /* AlmostRipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576208D245A8DD000B5D417 /* AlmostRipeTableViewCell.swift */; };
+		D5762090245C97E300B5D417 /* RipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576208F245C97E300B5D417 /* RipeTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D50513AA2464F6FD004DD8DE /* AddAvocadoAlert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddAvocadoAlert.storyboard; sourceTree = "<group>"; };
+		D50513AD2464F7E0004DD8DE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D50513B124650AA5004DD8DE /* AddAvocadoAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAvocadoAlertViewController.swift; sourceTree = "<group>"; };
+		D50513B52467A220004DD8DE /* Copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy.swift; sourceTree = "<group>"; };
+		D50513B72467AAA3004DD8DE /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		D513EA6F243269EB0084BB1E /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		D54EAF032448F36200D0351B /* Avocado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avocado.swift; sourceTree = "<group>"; };
+		D5559E1724314D7200FDE81A /* Avo Keepr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avo Keepr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5559E1A24314D7200FDE81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5559E1C24314D7200FDE81A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5559E2124314D7200FDE81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5559E2324314D7E00FDE81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5559E2624314D7E00FDE81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5559E2824314D7E00FDE81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5559E2F2431520200FDE81A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D5559E3224323A6200FDE81A /* StatsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTableViewController.swift; sourceTree = "<group>"; };
+		D5559E3424323E8400FDE81A /* StatsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsSections.swift; sourceTree = "<group>"; };
+		D5609E682440105C00040606 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		D5609E972443CF3900040606 /* AvocadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoController.swift; sourceTree = "<group>"; };
+		D575C8612474D680002C5D10 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		D575C865247635FF002C5D10 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D5762089245A835A00B5D417 /* NotRipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotRipeTableViewCell.swift; sourceTree = "<group>"; };
+		D576208D245A8DD000B5D417 /* AlmostRipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostRipeTableViewCell.swift; sourceTree = "<group>"; };
+		D576208F245C97E300B5D417 /* RipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5559E1424314D7200FDE81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D575C887247831D6002C5D10 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50513AC2464F7BF004DD8DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D50513AD2464F7E0004DD8DE /* Colors.swift */,
+				D50513B52467A220004DD8DE /* Copy.swift */,
+				D50513B72467AAA3004DD8DE /* Haptics.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D50513AF246509C1004DD8DE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D5762089245A835A00B5D417 /* NotRipeTableViewCell.swift */,
+				D576208D245A8DD000B5D417 /* AlmostRipeTableViewCell.swift */,
+				D576208F245C97E300B5D417 /* RipeTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D50513B0246509D1004DD8DE /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				D50513B124650AA5004DD8DE /* AddAvocadoAlertViewController.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		D513EAAE2432DE010084BB1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5609E972443CF3900040606 /* AvocadoController.swift */,
+				D5609E992444079400040606 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D513EAB12432F4710084BB1E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D50513B0246509D1004DD8DE /* Alerts */,
+				D50513AF246509C1004DD8DE /* Cells */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D5559E0E24314D7200FDE81A = {
+			isa = PBXGroup;
+			children = (
+				D5559E1924314D7200FDE81A /* SettingsPrototype */,
+				D5559E1824314D7200FDE81A /* Products */,
+				D575C8602474D680002C5D10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5559E1824314D7200FDE81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5559E1724314D7200FDE81A /* Avo Keepr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5559E1924314D7200FDE81A /* SettingsPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				D5559E31243154EC00FDE81A /* Views */,
+				D513EAAE2432DE010084BB1E /* Controllers */,
+				D5559E3624323F8800FDE81A /* Models */,
+				D50513AC2464F7BF004DD8DE /* Helpers */,
+				D5559E2E24314DA800FDE81A /* Resources */,
+				D5559E2824314D7E00FDE81A /* Info.plist */,
+			);
+			path = SettingsPrototype;
+			sourceTree = "<group>";
+		};
+		D5559E2E24314DA800FDE81A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5559E1A24314D7200FDE81A /* AppDelegate.swift */,
+				D5559E1C24314D7200FDE81A /* SceneDelegate.swift */,
+				D5559E2324314D7E00FDE81A /* Assets.xcassets */,
+				D5559E2524314D7E00FDE81A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5559E31243154EC00FDE81A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5559E2024314D7200FDE81A /* Main.storyboard */,
+				D50513AA2464F6FD004DD8DE /* AddAvocadoAlert.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5559E3624323F8800FDE81A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5559E3424323E8400FDE81A /* StatsSections.swift */,
+				D54EAF032448F36200D0351B /* Avocado.swift */,
+				D575C865247635FF002C5D10 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5609E992444079400040606 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5559E2F2431520200FDE81A /* HomeViewController.swift */,
+				D5559E3224323A6200FDE81A /* StatsTableViewController.swift */,
+				D513EA6F243269EB0084BB1E /* AboutTableViewController.swift */,
+				D5609E682440105C00040606 /* SettingsTableViewController.swift */,
+				D513EAB12432F4710084BB1E /* Custom Views */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D575C8602474D680002C5D10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D575C8612474D680002C5D10 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5559E1624314D7200FDE81A /* Avo Keepr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5559E2B24314D7E00FDE81A /* Build configuration list for PBXNativeTarget "Avo Keepr" */;
+			buildPhases = (
+				D5559E1324314D7200FDE81A /* Sources */,
+				D5559E1424314D7200FDE81A /* Frameworks */,
+				D5559E1524314D7200FDE81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avo Keepr";
+			productName = SettingsPrototype;
+			productReference = D5559E1724314D7200FDE81A /* Avo Keepr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5559E0F24314D7200FDE81A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					D5559E1624314D7200FDE81A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D5559E1224314D7200FDE81A /* Build configuration list for PBXProject "AvoKeeper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5559E0E24314D7200FDE81A;
+			productRefGroup = D5559E1824314D7200FDE81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5559E1624314D7200FDE81A /* Avo Keepr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5559E1524314D7200FDE81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5559E2724314D7E00FDE81A /* LaunchScreen.storyboard in Resources */,
+				D5559E2424314D7E00FDE81A /* Assets.xcassets in Resources */,
+				D5559E2224314D7200FDE81A /* Main.storyboard in Resources */,
+				D50513AB2464F6FD004DD8DE /* AddAvocadoAlert.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5559E1324314D7200FDE81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50513B82467AAA3004DD8DE /* Haptics.swift in Sources */,
+				D50513B62467A220004DD8DE /* Copy.swift in Sources */,
+				D5559E3524323E8400FDE81A /* StatsSections.swift in Sources */,
+				D575C866247635FF002C5D10 /* Settings.swift in Sources */,
+				D50513AE2464F7E0004DD8DE /* Colors.swift in Sources */,
+				D5762090245C97E300B5D417 /* RipeTableViewCell.swift in Sources */,
+				D50513B224650AA5004DD8DE /* AddAvocadoAlertViewController.swift in Sources */,
+				D5559E1B24314D7200FDE81A /* AppDelegate.swift in Sources */,
+				D5559E1D24314D7200FDE81A /* SceneDelegate.swift in Sources */,
+				D5609E982443CF3900040606 /* AvocadoController.swift in Sources */,
+				D5559E302431520200FDE81A /* HomeViewController.swift in Sources */,
+				D576208E245A8DD000B5D417 /* AlmostRipeTableViewCell.swift in Sources */,
+				D5559E3324323A6200FDE81A /* StatsTableViewController.swift in Sources */,
+				D513EA70243269EB0084BB1E /* AboutTableViewController.swift in Sources */,
+				D54EAF042448F36300D0351B /* Avocado.swift in Sources */,
+				D576208B245A835B00B5D417 /* NotRipeTableViewCell.swift in Sources */,
+				D5609E692440105C00040606 /* SettingsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5559E2024314D7200FDE81A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5559E2124314D7200FDE81A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5559E2524314D7E00FDE81A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5559E2624314D7E00FDE81A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5559E2924314D7E00FDE81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5559E2A24314D7E00FDE81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5559E2C24314D7E00FDE81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U46PJ4YSS;
+				INFOPLIST_FILE = SettingsPrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddjacobsen17.AvoKeepr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5559E2D24314D7E00FDE81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U46PJ4YSS;
+				INFOPLIST_FILE = SettingsPrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddjacobsen17.AvoKeepr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5559E1224314D7200FDE81A /* Build configuration list for PBXProject "AvoKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5559E2924314D7E00FDE81A /* Debug */,
+				D5559E2A24314D7E00FDE81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5559E2B24314D7E00FDE81A /* Build configuration list for PBXNativeTarget "Avo Keepr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5559E2C24314D7E00FDE81A /* Debug */,
+				D5559E2D24314D7E00FDE81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5559E0F24314D7200FDE81A /* Project object */;
+}
