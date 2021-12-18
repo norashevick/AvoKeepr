@@ -1,0 +1,6 @@
+framework module Heap {
+    umbrella header "Heap.h"
+
+    export *
+    module * { export * }
+}

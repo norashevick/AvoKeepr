@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CBCB03B4AF56D4881BFF146 /* Pods_Avo_Keepr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC0435AB7778E0AED0D5FEB /* Pods_Avo_Keepr.framework */; };
 		D50513AB2464F6FD004DD8DE /* AddAvocadoAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50513AA2464F6FD004DD8DE /* AddAvocadoAlert.storyboard */; };
 		D50513AE2464F7E0004DD8DE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50513AD2464F7E0004DD8DE /* Colors.swift */; };
 		D50513B224650AA5004DD8DE /* AddAvocadoAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50513B124650AA5004DD8DE /* AddAvocadoAlertViewController.swift */; };
@@ -32,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		985410C5E969278886D0EF74 /* Pods-Avo Keepr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avo Keepr.debug.xcconfig"; path = "Target Support Files/Pods-Avo Keepr/Pods-Avo Keepr.debug.xcconfig"; sourceTree = "<group>"; };
+		B35040386845704DD6545D03 /* Pods-Avo Keepr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avo Keepr.release.xcconfig"; path = "Target Support Files/Pods-Avo Keepr/Pods-Avo Keepr.release.xcconfig"; sourceTree = "<group>"; };
 		D50513AA2464F6FD004DD8DE /* AddAvocadoAlert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddAvocadoAlert.storyboard; sourceTree = "<group>"; };
 		D50513AD2464F7E0004DD8DE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		D50513B124650AA5004DD8DE /* AddAvocadoAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAvocadoAlertViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		D5762089245A835A00B5D417 /* NotRipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotRipeTableViewCell.swift; sourceTree = "<group>"; };
 		D576208D245A8DD000B5D417 /* AlmostRipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostRipeTableViewCell.swift; sourceTree = "<group>"; };
 		D576208F245C97E300B5D417 /* RipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeTableViewCell.swift; sourceTree = "<group>"; };
+		EFC0435AB7778E0AED0D5FEB /* Pods_Avo_Keepr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avo_Keepr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +68,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D575C887247831D6002C5D10 /* UserNotifications.framework in Frameworks */,
+				1CBCB03B4AF56D4881BFF146 /* Pods_Avo_Keepr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53F4303556BDD09382A2656F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				985410C5E969278886D0EF74 /* Pods-Avo Keepr.debug.xcconfig */,
+				B35040386845704DD6545D03 /* Pods-Avo Keepr.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D50513AC2464F7BF004DD8DE /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +137,7 @@
 				D5559E1924314D7200FDE81A /* SettingsPrototype */,
 				D5559E1824314D7200FDE81A /* Products */,
 				D575C8602474D680002C5D10 /* Frameworks */,
+				53F4303556BDD09382A2656F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				D575C8612474D680002C5D10 /* UserNotifications.framework */,
+				EFC0435AB7778E0AED0D5FEB /* Pods_Avo_Keepr.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5559E2B24314D7E00FDE81A /* Build configuration list for PBXNativeTarget "Avo Keepr" */;
 			buildPhases = (
+				ACD1451C2B0809950C8133E8 /* [CP] Check Pods Manifest.lock */,
 				D5559E1324314D7200FDE81A /* Sources */,
 				D5559E1424314D7200FDE81A /* Frameworks */,
 				D5559E1524314D7200FDE81A /* Resources */,
+				865777692E1507A6CBC38D80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +281,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		865777692E1507A6CBC38D80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Avo Keepr/Pods-Avo Keepr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Avo Keepr/Pods-Avo Keepr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Avo Keepr/Pods-Avo Keepr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD1451C2B0809950C8133E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Avo Keepr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5559E1324314D7200FDE81A /* Sources */ = {
@@ -426,6 +487,7 @@
 		};
 		D5559E2C24314D7E00FDE81A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985410C5E969278886D0EF74 /* Pods-Avo Keepr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +508,7 @@
 		};
 		D5559E2D24314D7E00FDE81A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35040386845704DD6545D03 /* Pods-Avo Keepr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,7 @@
+platform :ios, '12.0'
+
+project 'AvoKeeper.xcodeproj'
+target 'Avo Keepr' do
+	pod 'Heap', '~> 8.0'
+	use_frameworks!
+end
